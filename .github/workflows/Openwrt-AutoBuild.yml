@@ -9,7 +9,8 @@
 name: Build OpenWrt
 
 on: 
-  workflow_dispatch:
+  #workflow_dispatch:
+  repository_dispatch:
 
 env:
   REPO_TOKEN: ${{ secrets.TOKEN_KIDDIN9 }}
